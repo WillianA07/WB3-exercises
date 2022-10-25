@@ -6,7 +6,6 @@ function displayfavoriteThings() {
     let musician = "anything";
 
     console.log("Hi my name is " + name + ", my favorite movie is " + movie + " and I listen to the " + musician + ".")
-
 }
 
 
