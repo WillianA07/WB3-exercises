@@ -11,7 +11,9 @@ function init() {
 function onButtonClicked() {
     const dateInput = document.getElementById("dateInput");
 
-    let convertDateToString = dateInput.value.toString();
+    let date = dateInput.value;
+
+    let convertDateToString = new Date(date)
 
     const dateAsString = document.getElementById("dateAsString");
 
